@@ -1,0 +1,35 @@
+git init
+
+git status --常用
+
+git add xxx
+
+git log
+
+git commit -m "XXXX"
+
+git remote add origin https://github.com/XXX/XXX.git 
+
+git push -u origin master
+
+git pull origin master
+
+git diff HEAD
+
+git diff --staged
+
+git checkout -- XXXX
+
+git branch clean_up
+
+git checkout clean_up
+
+git rm 'XXX'
+
+git commit -m "Remove all the cats"
+
+git checkout master
+
+git merge clean_up
+
+git push
