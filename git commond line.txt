@@ -33,3 +33,8 @@ git checkout master
 git merge clean_up
 
 git push
+
+git branch 	查看当前所有分支
+git branch -v 	查看每一个分支的最后一次提交
+git branch --merged 	查看哪些分支已经合并到当前分支
+git branch --no-merged	查看所有包含未合并工作的分支
