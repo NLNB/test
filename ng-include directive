@@ -1,0 +1,19 @@
+ng-include directive
+
+https://github.com/angular/angular.js.git
+
+
+
+注册表项
+若要启用 OLE DB Provider for Oracle，使与 Oracle 客户端软件一起使用，必须从命令行运行注册表文件以修改客户端的注册表。不能同时运行客户端软件的多个实例。下表列出了这些文件，这些文件位于 Microsoft 数据访问组件 (MDAC) 的安装目录结构中。此位置通常为 C:\Program Files\Common Files\System Files\OLE DB。
+
+Oracle 客户端   	Windows NT 或 9x   		Windows 2000
+7.x				mtxoci7x_winnt.reg    	mtxoci7x_win2k.reg
+8.0				mtxoci80_winnt.reg		mtxoci80_win2k.reg
+8.1				mtxoci81_winnt.reg		mtxoci81_win2k.reg
+
+
+
+Oracle Client 8.1.7.0
+
+Microsoft OLE DB Provider for Oracle

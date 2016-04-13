@@ -1,0 +1,24 @@
+Hererogeneous Services Agent 异类服务代理
+
+Net8
+
+www.oracle.com
+
+https://community.oracle.com
+
+
+tnsnames.ora
+	提供tnsname到主机名或者ip的对应
+	show parameter service_name; 配tnsname.ora里面的service_name
+	为oracle客户端访问数据库而设的,不是为了远程客户端连接oracle服务器而设的
+
+listener.ora
+	listener进程接受远程对数据库的接入请求
+
+
+
+tnsping orcl
+
+show sga 查看instance是否已经启动
+
+select open_mode from v$database; 查看数据库是打开还是mount状态。
